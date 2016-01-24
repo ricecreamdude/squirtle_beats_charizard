@@ -23,8 +23,10 @@
   "dependencies": {
     "co-body": "^4.0.0",
     "koa": "^1.1.2",
+    "koa-mongoose": "^1.0.9",
     "koa-router": "^5.3.0",
-    "mongoose": "^4.3.7"
+    "mongoose": "^4.3.7",
+    "mongoose-q": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
