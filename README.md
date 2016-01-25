@@ -8,21 +8,25 @@ A Code Fellows 401 Project by [Joshua Ho](https://github.com/ricecreamdude), [Ja
 #Routes
 
 ####GET
-```(/api/pokemon)
+```
+(/api/pokemon)
 ```
 Lists all Pokemon stored in the database.
 
 ####POST
-```(/api/pokemon) {name:string, type:string}
+```
+(/api/pokemon) {name:string, type:string}
 ```
 Adds a new Pokemon to the database. Sets new Pokemon's attributes to a provided JSON object or sets as a default.
 
 ####PUT
-```(/api/pokemon:id) {name:string, type:string}
+```
+(/api/pokemon:id) {name:string, type:string}
 ```
 Updates attributes of Pokemon with provided ID. Requires a JSON object.
 
 ####DELETE
-```(/api/pokemon:id)
+```
+(/api/pokemon:id)
 ```
 Deletes Pokemon matching provided ID.
