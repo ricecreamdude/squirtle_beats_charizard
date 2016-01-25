@@ -1,25 +1,24 @@
 {
   "name": "squirtle_beats_charizard",
   "version": "1.0.0",
-  "description": "",
+  "description": "A single resource REST app using Koa",
   "main": "app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "./node_modules/mocha/bin/mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sabbyt/squirtle_beats_charizard.git"
+    "url": "git+https://github.com/ricecreamdude/squirtle_beats_charizard"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sabbyt/squirtle_beats_charizard/issues"
+    "url": "https://github.com/ricecreamdude/squirtle_beats_charizard/issues"
   },
-  "homepage": "https://github.com/sabbyt/squirtle_beats_charizard#readme",
+  "homepage": "https://github.com/ricecreamdude/squirtle_beats_charizard#readme",
   "dependencies": {
     "co-body": "^4.0.0",
     "koa": "^1.1.2",
