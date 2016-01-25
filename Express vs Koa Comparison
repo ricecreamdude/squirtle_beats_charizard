@@ -1,0 +1,12 @@
+Express vs Koa
+
+Koa.js (when compared to Express) aims to be a smaller and more expressive foundation for web applications and APIs. Broadly, Koa generators allow us to remove callbacks WITHIN code and write cleaner, legible code.
+
+apiRouter.js demonstrates how Koa can be used to set up an HTTP server. Like Express, Koa allows us to write 
+routes simply easily and quickly.
+
+Our team believes that Koa deviates the most from express by how it handles HTTP requests. Express explicitly defines response and request arguments for its routes, but Koa takes these arguments and turns them into attributes on a Koa object, along with several other methods. This allows the programmer to add in response or request handlers as they are needed, without having to constanly define them like in Express.
+
+Next Koa leans heavily on its 'yield' method, which it uses to simply calls to middleware. Yield works like a callback to a specified location, but unlike Express, which only allows you to call a single callback, Koa allows us to call as many as we'd like without writing tons of inline code. 
+
+Our team finds Koa to be a refreshing approach to server writing.  Express is straight forward and easier to understand as a beginner, while Koa does a great job of reducing Express' rigidity and allows for an easy-to-read final product. It's clear that Express' developers wanted router code to be easier to read and have more flexibility.
