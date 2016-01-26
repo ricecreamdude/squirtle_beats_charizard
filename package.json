@@ -1,0 +1,38 @@
+{
+  "name": "squirtle_beats_charizard",
+  "version": "1.0.0",
+  "description": "A single resource REST app using Koa",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricecreamdude/squirtle_beats_charizard"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricecreamdude/squirtle_beats_charizard/issues"
+  },
+  "homepage": "https://github.com/ricecreamdude/squirtle_beats_charizard#readme",
+  "dependencies": {
+    "co-body": "^4.0.0",
+    "koa": "^1.1.2",
+    "koa-mongoose": "^1.0.9",
+    "koa-router": "^5.3.0",
+    "mongoose": "^4.3.7",
+    "mongoose-q": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4"
+  }
+}
