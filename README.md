@@ -21,12 +21,12 @@ Adds a new Pokemon to the database. Sets new Pokemon's attributes to a provided 
 
 ####PUT
 ```
-(/api/pokemon:id) {name:string, type:string}
+(/api/pokemon/:id) {name:string, type:string}
 ```
 Updates attributes of Pokemon with provided ID. Requires a JSON object.
 
 ####DELETE
 ```
-(/api/pokemon:id)
+(/api/pokemon/:id)
 ```
 Deletes Pokemon matching provided ID.
